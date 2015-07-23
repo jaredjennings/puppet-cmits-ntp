@@ -1,0 +1,12 @@
+{
+  "name": "jaredjennings/ntp",
+  "version": "0.1.0",
+  "author": "Jared Jennings",
+  "summary": "Provide the functionality of the ntp module from CMITS (boilerplate)",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jaredjennings/puppet-cmits-ntp",
+  "project_page": "https://github.com/jaredjennings/puppet-cmits-ntp",
+  "issues_url": "https://github.com/jaredjennings/puppet-cmits-ntp/issues",
+  "dependencies": []
+}
+
