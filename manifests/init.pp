@@ -36,5 +36,6 @@
 # implementation of NTPv4 from the University of Delaware.
 
 class ntp {
-    include "ntp::${::osfamily}"
+    $lower_osfamily = downcase($::osfamily)
+    include "ntp::${lower_osfamily}"
 }
