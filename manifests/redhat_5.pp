@@ -25,7 +25,7 @@ class ntp::redhat_5 {
 # \implements{unixsrg}{GEN000250,GEN000251,GEN000252} Control ownership and
 # permissions of the \verb!ntp.conf! file.
     file { "/etc/ntp.conf":
-        owner => root, group => 0, mode => 0640,
+        owner => root, group => 0, mode => '0640',
     }
 # \implements{unixsrg}{GEN000253} Remove extended ACLs on the \verb!ntp.conf!
 # file.
